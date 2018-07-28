@@ -1,3 +1,28 @@
-#logo{
+body{
     text-align: center;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+footer{
+    background-color: rgb(25, 166, 218);
+    
+    bottom:0;
+    height:40px;
+    margin-top:40px;
 }

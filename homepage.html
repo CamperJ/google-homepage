@@ -1,17 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <header>
     <meta charset="utf-8">
     <title>Search engine</title>
     <link rel="stylesheet" type="text/css"href="style.css">
+
+    <div id="top" class="navbar">
+            <ul>
+                <li><a href="about.asp">About</a></li>
+                <li><a href="store.asp">Store</a></li>
+                <li style="float:right"><a href="gmail.asp">Gmail</a></li>
+                <li style="float:right"><a href="images.asp">Images</a></li>
+            </ul>
+    </div>
 </header>
-<body>
-    <h1 id="logo">Google</h1>
+
+<body>  
     <div>
-        <form action="/results.php" method="POST">
-            Search: <input type="text" name="search" value="Enter your query here"><br>
-            <input type="submit" value="Submit">
-        </form>
+    <h1 id="logo">Google</h1>
+    </div>
+    <div>
+    <form action="/results.php" method="POST">
+        <input type="text" name="search" value="Enter your query here"><br>
+        <input type="submit" value="Submit">
+        <input type="submit" value="I'm Feeling Lucky">
+    </form>
     </div>
 </body>
+
+<footer>
+    <div id="bottom" class="navbar">
+            <ul>
+                <li><a href="advertising.asp">Advertising</a></li>
+                <li><a href="business.asp">Business</a></li>
+                <li style="float:right"><a href="privacy.asp">Privacy</a></li>
+                <li style="float:right"><a href="terms.asp">Terms</a></li>
+                <li style="float:right"><a href="settings.asp">Settings</a></li>
+            </ul>
+    </div>
+</footer>
 </html>
