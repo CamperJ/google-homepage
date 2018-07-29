@@ -23,3 +23,8 @@ li a{
     padding: 10px 10px;
     text-decoration:none;}
     
+img{
+    height:auto;
+    width:auto;
+    max-width:50%;
+}
